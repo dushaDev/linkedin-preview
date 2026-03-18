@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LinkedInPreview | Post Formatter
 
-## Getting Started
+**LinkedInPreview** is a sleek, browser-based tool designed to help professionals bypass LinkedIn’s text styling limitations. While the native LinkedIn editor doesn't support basic formatting, this tool uses specialized Unicode characters to allow for **bold**, *italics*, and other styles that remain visible when pasted into the actual platform.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Rich Text Formatting**: Instantly apply bold, italic, underline, and strikethrough styles using Unicode symbols.
+* **Live Mobile Preview**: View a pixel-perfect recreation of how your post appears on the LinkedIn mobile feed, including a "see more" truncation toggle.
+* **Smart Lists & Emojis**: Toggle bullet points, numbered lists, and access an integrated emoji picker.
+* **Profile Shuffling**: Test your post layout against different professional personas.
+* **Character Counter**: Track your progress against LinkedIn’s 3,000-character limit with real-time warnings.
+* **Auto-Save & Image Support**: Your content is saved locally in your browser, and you can upload a preview image to visualize the full post composition.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* **Framework**: Next.js (React)
+* **Styling**: Tailwind CSS
+* **Icons**: Lucide React
+* **Deployment**: Static Export for GitHub Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Getting Started
 
-## Learn More
+1.  **Clone the repository**:
+    ```bash
+    git clone [https://github.com/DushaDev/linkedin-preview.git](https://github.com/DushaDev/linkedin-preview.git)
+    ```
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
+4.  **Build for Static Export**:
+    ```bash
+    npm run build
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is configured for **Static HTML Export**, making it compatible with GitHub Pages. Ensure your `next.config.mjs` has `output: 'export'` enabled before deploying.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Developed by [DushaDev](https://dushadev.github.io/).
