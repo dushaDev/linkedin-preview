@@ -26,22 +26,22 @@ export default function Home() {
     {
       name: "kaveesha Jayawardhane",
       title: "Undergraduate Software Engineer | AI & Machine Learning Enthusiast",
-      image: "/profile-female.png"
+      image: "/linkedin-preview/profile-female.png"
     },
     {
       name: "Kasun Mendis",
       title: "Full Stack Developer | UI/UX Designer | Open Source Contributor",
-      image: "/profile-male.jpg"
+      image: "/linkedin-preview/profile-male.jpg"
     },
     {
       name: "Sarah Jenkins",
       title: "Senior Product Marketing Manager at GlobalTech",
-      image: "/profile-female-1.jpg"
+      image: "/linkedin-preview/profile-female-1.jpg"
     },
     {
       name: "Michael Chen",
       title: "Data Scientist | Passionate about AI Ethics & Sustainability",
-      image: "/profile-male-1.jpg"
+      image: "/linkedin-preview/profile-male-1.jpg"
     }
   ];
 
@@ -213,7 +213,7 @@ export default function Home() {
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 relative drop-shadow-sm group transition-transform hover:scale-105">
             <Image 
-              src="/logo.png" 
+              src="/linkedin-preview/logo.png" 
               alt="Logo" 
               fill
               className="object-contain"
@@ -440,7 +440,7 @@ export default function Home() {
                     <div className="flex items-center gap-1 mt-0.5">
                       <span className="text-[12px] text-zinc-500 leading-tight">2h • </span>
                       <div className="w-3 h-3 relative">
-                        <Image src="/public.svg" alt="Public" fill className="object-contain opacity-60" />
+                        <Image src="/linkedin-preview/public.svg" alt="Public" fill className="object-contain opacity-60" />
                       </div>
                     </div>
                   </div>
@@ -500,9 +500,9 @@ export default function Home() {
                 <div className="flex items-center">
                   <div className="flex items-center -space-x-1.5 mr-2">
                     {[
-                      { src: '/react-like.svg', alt: 'Like' },
-                      { src: '/react-insightful.svg', alt: 'Insightful' },
-                      { src: '/react-love.svg', alt: 'Love' }
+                      { src: '/linkedin-preview/react-like.svg', alt: 'Like' },
+                      { src: '/linkedin-preview/react-insightful.svg', alt: 'Insightful' },
+                      { src: '/linkedin-preview/react-love.svg', alt: 'Love' }
                     ].map((reaction, i) => (
                       <div key={i} className={`w-[18px] h-[18px] relative rounded-full border border-white z-${3-i} overflow-hidden bg-white`}>
                         <Image 
@@ -526,10 +526,10 @@ export default function Home() {
               {/* Interaction Bar (Icons Match LinkedIn Mobile) */}
               <div className="px-1 border-t border-zinc-100 mt-1 flex items-center justify-around">
                 {[
-                  { label: 'Like', icon: '/like.svg' },
-                  { label: 'Comment', icon: '/comments.svg' },
-                  { label: 'Repost', icon: '/repost.svg' },
-                  { label: 'Send', icon: '/share.svg' }
+                  { label: 'Like', icon: '/linkedin-preview/like.svg' },
+                  { label: 'Comment', icon: '/linkedin-preview/comments.svg' },
+                  { label: 'Repost', icon: '/linkedin-preview/repost.svg' },
+                  { label: 'Send', icon: '/linkedin-preview/share.svg' }
                 ].map((action) => (
                   <button key={action.label} className="flex-1 py-3 group flex flex-row items-center justify-center gap-2 rounded transition-colors hover:bg-zinc-100">
                     <div className="w-[18px] h-[18px] relative opacity-60 group-hover:opacity-100 transition-opacity">
@@ -549,7 +549,7 @@ export default function Home() {
               <div className="px-3 py-2 border-t border-zinc-50 flex items-center justify-between mx-1 group cursor-pointer hover:bg-zinc-50 transition-colors">
                 <div className="flex items-center gap-2">
                   <div className="w-4 h-4 relative">
-                    <Image src="/impression.svg" alt="Impressions" fill className="object-contain opacity-70" />
+                    <Image src="/linkedin-preview/impression.svg" alt="Impressions" fill className="object-contain opacity-70" />
                   </div>
                   <span className="text-[12px] text-zinc-500 font-medium">303 impressions</span>
                 </div>
